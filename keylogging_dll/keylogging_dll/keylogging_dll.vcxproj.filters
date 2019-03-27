@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="headers\phnt">
+      <UniqueIdentifier>{6dd81250-f11d-4596-9507-82cfc0c0660c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inputsystem">
+      <UniqueIdentifier>{260ffdcc-df77-4aa9-afa2-e7e879bea1bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>headers</Filter>
+    </ClCompile>
+    <ClCompile Include="inputsystem.cpp">
+      <Filter>inputsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="keylogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntdbg.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntexapi.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntgdi.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntioapi.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntkeapi.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntldr.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntlpcapi.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntmisc.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntmmapi.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntnls.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntobapi.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntpebteb.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntpfapi.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntpnpapi.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntpoapi.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntpsapi.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntregapi.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntrtl.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntsam.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntseapi.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntsmss.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\nttmapi.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\nttp.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntwow64.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntxcapi.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntzwapi.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\phnt.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\phnt_ntdef.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\phnt_windows.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\subprocesstag.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\winsta.h">
+      <Filter>headers\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="inputsystem.h">
+      <Filter>inputsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="keylogger.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

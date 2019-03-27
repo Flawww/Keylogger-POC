@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mapper">
+      <UniqueIdentifier>{428ba945-9eeb-4391-af0b-ea272c01c3fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes">
+      <UniqueIdentifier>{58286c88-2acb-477c-be0d-4e4befa8ac08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\phnt">
+      <UniqueIdentifier>{8cbfff10-59fd-4c7f-96d9-4278436910a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="phnt\ntdbg.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntexapi.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntgdi.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntioapi.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntkeapi.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntldr.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntlpcapi.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntmisc.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntmmapi.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntnls.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntobapi.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntpebteb.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntpfapi.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntpnpapi.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntpoapi.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntpsapi.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntregapi.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntrtl.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntsam.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntseapi.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntsmss.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\nttmapi.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\nttp.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntwow64.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntxcapi.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntzwapi.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\phnt.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\phnt_ntdef.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\phnt_windows.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\subprocesstag.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\winsta.h">
+      <Filter>includes\phnt</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper.h">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="entry.h">
+      <Filter>loader</Filter>
+    </ClInclude>
+    <ClInclude Include="dll.h">
+      <Filter>loader</Filter>
+    </ClInclude>
+    <ClInclude Include="function_wrappers.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="keylogger_loader.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mapper.c">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="entry.c">
+      <Filter>loader</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.c">
+      <Filter>includes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
