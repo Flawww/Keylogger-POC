@@ -5,17 +5,6 @@ c_keylogger::c_keylogger( ) {
     m_active = true;
     m_input = new c_inputsystem( );
     m_gathered_input.clear( );
-
-    // create the debugging file
-//#ifdef LOG_TO_FILE
-//    CHAR path[ MAX_PATH ];
-//    GetTempPathA( MAX_PATH, path );
-//    strcat_s( path, MAX_PATH, FILE_NAME );
-//
-//    FILE* file;
-//    fopen_s( &file, path, "wb" );
-//    fclose( file );
-//#endif
 }
 
 c_keylogger::~c_keylogger( ) {
